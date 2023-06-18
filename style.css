@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+#game-board {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    position: relative;
+    background-color: #9999992e;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.263);
+}
+.snake-part {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    position: absolute;
+}
+#food {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    position: absolute;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.5);
+}
+.button:hover {
+    background-color: #555;
+}
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #999;
+}
