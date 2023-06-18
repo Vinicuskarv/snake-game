@@ -7,7 +7,7 @@ body{
     height: 400px;
     border: 1px solid #000;
     position: relative;
-    background-color: #9999992e;
+    background-color: #2743822e;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.263);
 }
 .snake-part {
@@ -40,5 +40,24 @@ body{
 }
 .button:focus {
     outline: none;
-    box-shadow: 0 0 0 3px #999;
+    box-shadow: 0 0 0 3px #7e75a1;
+}
+#game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+}
+
+.snake-part {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
 }
